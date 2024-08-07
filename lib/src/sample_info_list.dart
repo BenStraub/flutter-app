@@ -96,12 +96,6 @@ final List<SampleInfo> sampleInfoList = [
     builder: (title) => ApplyUniqueValueRendererSample(title: title),
   ),
   SampleInfo(
-    name: 'change_sublayer_renderer',
-    title: 'Change Sublayer Renderer',
-    description: 'Change the renderer of a sublayer of a map image layer.',
-    builder: (title) => ChangeSublayerRendererSample(title: title),
-  ),
-  SampleInfo(
     name: 'display_map',
     title: 'Display Map',
     description: 'Show a map with a basemap.',
